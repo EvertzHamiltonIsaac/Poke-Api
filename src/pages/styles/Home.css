@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
+
+:root{
+    --color_Red_Figma: #FE1936;
+    --color_white: white;
+    --color_black: #181818;
+}
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+.home__tittle{
+    padding: 10px;
+    max-width: 500px;
+}
+
+.home__subtittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.home__subtittle h2 {
+    color: var(--color_Red_Figma);
+}
+
+.formHome__name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_input{
+    width: 250px;
+    padding: 10px;
+    box-shadow: -1px 2px 5px rgba(0,0,0,.075)!important;
+    height: 40px;
+    font-size: 18px;
+}
+
+.home_btn{
+    width: 100px;
+    padding: 10px;
+    background-color: var(--color_Red_Figma);
+    color: var(--color_white);
+    box-shadow: -1px 2px 5px rgba(0,0,0,.075)!important;
+    cursor: pointer;
+    height: 40px;
+}
+
+.home_btn:hover{
+    filter: brightness(1.1);
+}

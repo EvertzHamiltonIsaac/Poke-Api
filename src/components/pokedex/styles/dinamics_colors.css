@@ -1,0 +1,365 @@
+:root{
+    --color-fire: #E85D04;
+    --color-fire-border: #9D0208;
+
+    --color-water: #00B4D8;
+    --color-water-border: #0077B6 ;
+
+    --color-ice: #CAF0F8;
+    --color-ice-border: #03045E ;
+
+    --color-grass: #2B9348;
+    --color-grass-border: #007F5F ;
+
+    --color-rock: #785352;
+    --color-rock-border: #5A4340;
+
+    --color-poison: #734A6A;
+    --color-poison-border: #392939 ;
+
+    --color-fairy: #FDE4CF;
+    --color-fairy-border: #B5838D ;
+
+    --color-fighting: #49111C;
+    --color-fighting-border: #0A0908 ;
+
+    --color-flying: #FBFFF1;
+    --color-flying-border: #2B93D1 ;
+
+    --color-electric: #303030;
+    --color-electric-border: #fdc500 ;
+
+    --color-dark: #14213D;
+    --color-dark-border: #000000 ;
+
+    --color-shadow: #6C757D;
+    --color-shadow-border: #343A40 ;
+
+    --color-dragon: #0033FF;
+    --color-dragon-border: #4C00FF ;
+
+    --color-ground: #9C6615;
+    --color-ground-border: #413620 ;
+
+    --color-bug: #4F772D;
+    --color-bug-border: #31572C ;
+
+    --color-ghost: #403D39;
+    --color-ghost-border: #252422 ;
+
+    --color-steel: #93ACB5;
+    --color-steel-border: #6C756B ;
+
+    --color-psychic: #9E0059;
+    --color-psychic-border: #390099 ;
+
+    --color-normal: #d62828;
+    --color-normal-border: #003049 ;
+
+    --color-unknow: #939597;
+    --color-unknow-border: #363537 ;
+
+}
+
+/*Colores Dinamicos*/
+
+/*border-fire*/
+.border-fire{
+    border-color: var(--color-fire-border);
+}
+
+/*bg-fire*/
+.bg-fire{
+    background-color: var(--color-fire);
+}
+
+/*letter-fire*/
+.letter-fire{
+    color: var(--color-fire)
+}
+
+/*border-water*/
+.border-water{
+    border-color: var(--color-water-border);
+}
+
+/*bg-water*/
+.bg-water{
+    background-color: var(--color-water);
+}
+
+/*letter-water*/
+.letter-water{
+    color: var(--color-water)
+}
+
+/*border-ice*/
+.border-ice{
+    border-color: var(--color-ice-border);
+}
+
+/*bg-ice*/
+.bg-ice{
+    background-color: var(--color-ice);
+}
+
+/*letter-ice*/
+.letter-ice{
+    color: var(--color-ice-border)
+}
+
+/*border-water*/
+.border-grass{
+    border-color: var(--color-grass-border);
+}
+
+/*bg-grass*/
+.bg-grass{
+    background-color: var(--color-grass);
+}
+
+/*letter-grass*/
+.letter-grass{
+    color: var(--color-grass)
+}
+
+/*border-rock*/
+.border-rock{
+    border-color: var(--color-rock-border);
+}
+
+/*bg-rock*/
+.bg-rock{
+    background-color: var(--color-rock);
+}
+
+/*letter-rock*/
+.letter-rock{
+    color: var(--color-rock)
+}
+
+/*border-poison*/
+.border-poison{
+    border-color: var(--color-poison-border);
+}
+
+/*bg-poison*/
+.bg-poison{
+    background-color: var(--color-poison);
+}
+
+/*letter-poison*/
+.letter-poison{
+    color: var(--color-poison)
+}
+
+/*border-fairy*/
+.border-fairy{
+    border-color: var(--color-fairy-border);
+}
+
+/*bg-fairy*/
+.bg-fairy{
+    background-color: var(--color-fairy);
+}
+
+/*letter-fairy*/
+.letter-fairy{
+    color: var(--color-fairy-border)
+}
+
+/*border-fighting*/
+.border-fighting{
+    border-color: var(--color-fighting-border);
+}
+
+/*bg-fighting*/
+.bg-fighting{
+    background-color: var(--color-fighting);
+}
+
+/*letter-fighting*/
+.letter-fighting{
+    color: var(--color-fighting-border)
+}
+
+/*border-flying*/
+.border-flying{
+    border-color: var(--color-flying-border);
+}
+
+/*bg-flying*/
+.bg-flying{
+    background-color: var(--color-flying);
+}
+
+/*letter-flying*/
+.letter-flying{
+    color: var(--color-flying-border)
+}
+
+/*border-electric*/
+.border-electric{
+    border-color: var(--color-electric-border);
+}
+
+/*bg-flying*/
+.bg-electric{
+    background-color: var(--color-electric);
+}
+
+/*letterelectricg*/
+.letter-electric{
+    color: var(--color-electric-border)
+}
+
+/*border-flying*/
+.border-dark{
+    border-color: var(--color-dark-border);
+}
+
+/*bg-flying*/
+.bg-dark{
+    background-color: var(--color-dark);
+}
+
+/*letter-dark*/
+.letter-dark{
+    color: var(--color-dark-border)
+}
+
+/*border-shadow*/
+.border-shadow{
+    border-color: var(--color-shadow-border);
+}
+
+/*bg-shadow*/
+.bg-shadow{
+    background-color: var(--color-shadow);
+}
+
+/*letter-shadow*/
+.letter-shadow{
+    color: var(--color-shadow-border)
+}
+
+/*border-dragon*/
+.border-dragon{
+    border-color: var(--color-dragon-border);
+}
+
+/*bg-shadow*/
+.bg-dragon{
+    background-color: var(--color-dragon);
+}
+
+/*letter-dragon*/
+.letter-dragon{
+    color: var(--color-dragon-border)
+}
+
+/*border-shadow*/
+.border-ground{
+    border-color: var(--color-ground-border);
+}
+
+/*bg-ground*/
+.bg-ground{
+    background-color: var(--color-ground);
+}
+
+/*letter-ground*/
+.letter-ground{
+    color: var(--color-ground-border)
+}
+
+/*border-bug*/
+.border-bug{
+    border-color: var(--color-bug-border);
+}
+
+/*bg-shadow*/
+.bg-bug{
+    background-color: var(--color-bug);
+}
+
+/*letter-bug*/
+.letter-bug{
+    color: var(--color-bug-border)
+}
+
+/*border-ghost*/
+.border-ghost{
+    border-color: var(--color-ghost-border);
+}
+
+/*bg-shadow*/
+.bg-ghost{
+    background-color: var(--color-ghost);
+}
+
+/*letter-ghost*/
+.letter-ghost{
+    color: var(--color-ghost-border)
+}
+
+/*border-steel*/
+.border-steel{
+    border-color: var(--color-steel-border);
+}
+
+/*bg-steel*/
+.bg-steel{
+    background-color: var(--color-steel);
+}
+
+/*letter-steel*/
+.letter-steel{
+    color: var(--color-steel-border)
+}
+
+/*border-psychic*/
+.border-psychic{
+    border-color: var(--color-psychic-border);
+}
+
+/*bg-psychic*/
+.bg-psychic{
+    background-color: var(--color-psychic);
+}
+
+/*letter-psychic*/
+.letter-psychic{
+    color: var(--color-psychic-border)
+}
+
+/*border-normal*/
+.border-normal{
+    border-color: var(--color-normal-border);
+}
+
+/*bg-shadow*/
+.bg-normal{
+    background-color: var(--color-normal);
+}
+
+/*letter-normal*/
+.letter-normal{
+    color: var(--color-normal-border)
+}
+
+/*border-unknow*/
+.border-unknow{
+    border-color: var(--color-unknow-border);
+}
+
+/*bg-unknow*/
+.bg-unknow{
+    background-color: var(--color-unknow);
+}
+
+/*letter-unknow*/
+.letter-unknow{
+    color: var(--color-unknow-border)
+}
+

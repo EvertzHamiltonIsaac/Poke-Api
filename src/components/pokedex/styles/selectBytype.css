@@ -1,0 +1,10 @@
+.select__pokemons{
+    width: 500px;
+    border: 0;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: larger;
+    cursor: pointer;
+    margin: auto;
+}

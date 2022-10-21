@@ -1,0 +1,43 @@
+.footer__red{
+    height: 80px;
+    width: 100%;
+    background-color: var(--color_Red_Figma);
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__black{
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__circle{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 8px solid black;
+}
+
+.footer__circle__small{
+    width: 40px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #222;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, 7px);
+    border: 8px solid black;
+}
+
+.footer__container{
+    position: relative;
+    margin-top: 150px;
+}
